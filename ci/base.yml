@@ -33,6 +33,7 @@ local_conf_header:
     INHERIT += "buildstats buildstats-summary"
     INHERIT += "buildhistory"
     INHERIT += "rm_work"
+    INHERIT += "parsedump
   cmdline: |
     KERNEL_CMDLINE_EXTRA:append = " page_owner=on qcom_scm.download_mode=1"
   qcomflash: |
