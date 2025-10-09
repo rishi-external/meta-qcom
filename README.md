@@ -1,4 +1,4 @@
-# meta-qcom
+# meta-qcom 
 
 [![Build on push](https://github.com/qualcomm-linux/meta-qcom/actions/workflows/push.yml/badge.svg)](https://github.com/qualcomm-linux/meta-qcom/actions/workflows/push.yml)
 [![Nightly Build](https://github.com/qualcomm-linux/meta-qcom/actions/workflows/nightly-build.yml/badge.svg)](https://github.com/qualcomm-linux/meta-qcom/actions/workflows/nightly-build.yml)
