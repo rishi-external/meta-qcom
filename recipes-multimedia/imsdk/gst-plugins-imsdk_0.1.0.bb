@@ -42,3 +42,6 @@ PACKAGECONFIG[videoproc]    = "-DENABLE_GST_VIDEOPROC_PLUGINS=1, -DENABLE_GST_VI
 
 # The TFLite plugin loads the TensorFlow Lite library at runtime using dlopen(). To ensure runtime availability, added runtime dependency on 'tensorflow-lite'.
 RDEPENDS:${PN}-qtimltflite += "tensorflow-lite"
+
+# The Smart Video Encoder plugin loads the libVideoCtrl library at runtime using dlopen(). To ensure runtime availability, added runtime dependency on 'smart-venc-ctrl-algo'.
+RDEPENDS:${PN}-qtismartvencbin += "smart-venc-ctrl-algo"
