@@ -3,7 +3,7 @@ SUMMARY = "Qualcomm FastRPC applications and library"
 SECTION = "devel"
 
 LICENSE = "BSD-3-Clause"
-LIC_FILES_CHKSUM = "file://LICENSE.txt;md5=b67986b6880754696d418dbaa2cf51d1"
+LIC_FILES_CHKSUM = "file://LICENSE.txt;md5=b67986b6880754696d418dbaa2cf51d1" 
 DEPENDS = "libbsd libyaml"
 
 SRCREV = "8572ae1c45d38a4dc8853b1b9b6738207ab1ce94"
